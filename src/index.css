@@ -1,0 +1,21 @@
+.board {
+  width: 100%;
+  text-align: center;
+}
+
+.row {
+  background-color: gray;
+  height: 10px;
+}
+
+.cell {
+  border: 1px solid white;
+  min-height: 8px;
+  text-align: center;
+  display: inline-block;
+  min-width: 8px;
+}
+
+.on {
+  background-color: peru;
+}
